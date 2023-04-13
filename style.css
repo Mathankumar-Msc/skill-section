@@ -1,0 +1,169 @@
+/* *{
+    margin: 0;
+    padding: 0;
+   
+} */
+
+
+body{
+    background: #0a131d;
+}
+ul,li{
+    list-style-type: none;
+}
+.progress_bar{
+    padding: 50px 0px;
+}
+.progress_icon{
+    color: #eee;
+    font-size: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+.progress_bar h3{
+    color: #a2d5e5;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.progress_bar h3 span{
+    float: right;
+    padding-bottom: 4px;
+}
+.progress_bar ul li {
+    padding: 10px 30px;
+}
+.bar{
+    height: 6px;
+    background: rgba(170, 170, 170, 0.34);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.bar span{
+    height: 6px;
+    float: left;
+    border-radius: 5px;
+}
+.col-6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  ul{
+     width: 40%;
+  }
+.html{
+   background-color: #E44D26;
+    width: 95%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+.css{
+    background-color:#1572B6;
+     width:75%;
+     animation: css 3s;
+ }
+ @keyframes css{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:75%;
+     }
+ }
+ .js{
+    background-color:#F0DB4F;
+     width:70%;
+     animation: js 3s;
+ }
+ @keyframes js{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:75%;
+     }
+ }
+ .bootstrap{
+    background-color:#7952b3;
+     width:60%;
+     animation:bootstrap 3s;
+ }
+ @keyframes bootstrap{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:60%;
+     }
+ }
+ .react{
+    background-color:#61DAFB;
+     width:50%;
+     animation:react 3s;
+ }
+ @keyframes react{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:50%;
+     }
+ }
+
+ .node{
+    background-color:#83CD29;
+     width:70%;
+     animation:node 3s;
+ }
+ @keyframes node{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:70%;
+     }
+ }
+ .mongo{
+    background-color:#589636;
+     width:70%;
+     animation: mongo 3s;
+ }
+ @keyframes mongo{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:70%;
+     }
+ }
+ .sql{
+    background-color:#00618A;
+     width:70%;
+     animation:sql 3s;
+ }
+ @keyframes sql{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width:70%;
+     }
+ }
+
+ @media screen and (max-width:600px) {
+
+    .col-6 ul{
+        width: 100%;
+      
+    }
+    
+ }
+ 
+ 
